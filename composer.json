@@ -19,13 +19,13 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "phpunit/php-text-template": "*",
-        "sebastian/version": "*",
-        "symfony/console": "*"
+        "phpunit/php-text-template": "~1.2",
+        "sebastian/version": "~1.0|~2.0",
+        "symfony/console": "~2.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.3",
-        "mikey179/vfsStream": "*"
+        "phpunit/phpunit": "~4.0",
+        "mikey179/vfsStream": "~1.2"
     },
     "autoload": {
         "classmap": [
