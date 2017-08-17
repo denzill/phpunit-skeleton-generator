@@ -205,6 +205,10 @@ class TestGenerator extends AbstractGenerator
                                     $assertion = 'exception';
                                     break;
 
+                                case 'instanceOf':
+                                    $assertion = 'InstanceOf';
+                                    break;
+                                
                                 default:
                                     throw new \RuntimeException(
                                         sprintf(
